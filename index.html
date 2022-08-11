@@ -1,0 +1,277 @@
+<html>
+
+<head>
+    <title>Plan A</title>
+    <link rel="icon" href="img/logo.jpg">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a class="navbar-brand" href="/">
+            <div class="logo-image">
+                <img src="img/small-logo.jpg" class="img-fluid">
+            </div>
+        </a>
+        <div class="nav-items">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            <a class="navbar-item" href="#contact-section">KONTAKT</a>
+            <div class="dropdown">
+                <button class="dropbtn" id="catalog" onclick="location.href='#furniture-section'">NAMEŠTAJ</button>
+                <div class="dropdown-content">
+                    <a class="content" href="#chairsFotelje">Stolice i fotelje</a>
+                    <a class="content" href="#namestaj">Nameštaj</a>
+                    <a class="content" href="#bfis">Barske fotelje i stolovi</a>
+                    <a class="content" href="#bfis">Ormari</a>
+                    <a class="content" href="#bfis">Kuhinje</a>
+                    <a class="content" href="#bfis">Interijeri</a>
+                </div>
+            </div>
+            <a class="navbar-item" href="#galery-section">GALERIJA</a>
+            <a class="navbar-item" href="#about-section">O NAMA</a>
+            <a class="navbar-item" href="#home">POČETNA</a>
+
+        </div>
+
+    </div>
+
+    <!--MAIN IMAGE-->
+    <div class="main-section" id="home">
+        <p class="main-text">Uređenje enterijera</p>
+        <button class="find-more" onclick="location.href='#about-section'">Saznajte više</button>
+    </div>
+
+    <!--ABOUT SEKCIJA-->
+    <div id="about-section">
+        <br />
+        <br />
+        <br />
+        <p class="contact-title">O NAMA</p>
+        <hr class="contact-horizontal-1">
+        <hr class="contact-horizontal-2">
+        <div class="row">
+            <p class="about-paragraph">Kompletna usluga opremanja enterijera. <br /> <br /> Stručni saveti u izboru i
+                izradi namještaja i unutrašnje dekoracije. <br /> <br /> Vaše želje oblikujemo i prilagođavamo Vašem
+                domu.</p>
+        </div>
+    </div>
+
+    <!--GALERIJA SEKCIJA-->
+    <div id="galery-section">
+        <br />
+        <br />
+        <br />
+        <p class="contact-title">GALERIJA</p>
+        <hr class="contact-horizontal-1">
+        <hr class="contact-horizontal-2">
+        <div class="row">
+            <div class="slideshow-container" style="margin-top: 3%;">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/main.jpg" style="width:100%; height: 70%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img/main1.jpg" style="width:100%; height: 70%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/main3.jpg" style="width:100%; height: 70%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <!--NAMJESTAJ SEKCIJA-->
+    <div id="furniture-section">
+        <br />
+        <br />
+        <br />
+        <p class="contact-title">NAMEŠTAJ</p>
+        <hr class="contact-horizontal-1">
+        <hr class="contact-horizontal-2">
+        <div class="chairs1" id="chairsFotelje">
+            <img src="img/chairs1.jpg" class="image-furniture">
+            <div class="description-div">
+                <p class="descriptions-head">STOLICE I FOTELJE</p>
+                <p class="description-text">Neki opis stolica i fotelja koje imamo u ponudi.</p>
+                <button class="find-more-1" id="myBtn" onclick="location.href='stolice-fotelje.html'">KATALOG</button>
+            </div>
+        </div>
+        <div class="chairs2" id="namestaj">
+            <div class="description-div-2">
+                <p class="descriptions-head-5">NAMEŠTAJ</p>
+                <p class="description-text-5">Neki opis namjestaja kostka koje imamo u ponudi.</p>
+                <button class="find-more-5" onclick="location.href='namestaj.html'">KATALOG</button>
+            </div>
+            <img src="img/chairs2.jpg" class="image-furniture-3">
+        </div>
+        <div class="chairs1" id="bfis">
+            <img src="img/chairs3.jpg" class="image-furniture">
+            <div class="description-div">
+                <p class="descriptions-head-3">BARSKE FOTELJE I STOLOVI</p>
+                <p class="description-text">Neki opis barskih fotelja i stolova koje imamo u ponudi.</p>
+                <button class="find-more-1" onclick="location.href='bfoteljeistolovi.html'">KATALOG</button>
+            </div>
+        </div>
+        <div class="chairs2">
+            <div class="description-div-2">
+                <p class="descriptions-head-2">ORMARI</p>
+                <p class="description-text-2">Neki opis ormara kostka koje imamo u ponudi.</p>
+                <button class="find-more-2">KATALOG</button>
+            </div>
+            <img src="img/ormar.jpg" class="image-furniture-2">
+        </div>
+        <div class="chairs1">
+            <img src="img/kuhinje.webp" class="image-furniture">
+            <div class="description-div">
+                <p class="descriptions-head-4">KUHINJE</p>
+                <p class="description-text">Neki opis kuhinja koje imamo u ponudi.</p>
+                <button class="find-more-1">KATALOG</button>
+            </div>
+        </div>
+        <div class="chairs2">
+            <div class="description-div-2">
+                <p class="descriptions-head-2">INTERIJERI</p>
+                <p class="description-text-2">Neki opis interijera koje imamo u ponudi.</p>
+                <button class="find-more-2">KATALOG</button>
+            </div>
+            <img src="img/Interijer_4.jpg" class="image-furniture-2">
+        </div>
+    </div>
+
+
+
+    <!--KONTAKT SEKCIJA-->
+    <div id="contact-section">
+        <p class="contact-title">KONTAKT</p>
+        <hr class="contact-horizontal-1">
+        <hr class="contact-horizontal-2">
+        <div class="row">
+            <div class="col" id="left">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <br />
+                <br />
+                <br />
+                <p class="contact-info">plan.plana93@gmail.com</p>
+                <p style="margin-top: 3%;" class="contact-info">djordjegutic1@gmail.com</p>
+            </div>
+            <div class="col" id="center">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <br />
+                <br />
+                <br />
+                <p>+381 63 424 113</p>
+                <p class="contact-info" style="margin-top: 3%;"></p>
+                <br />
+            </div>
+            <div class="col alignImgRight" id="right">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <br />
+                <br />
+                <br />
+                <p>Sinđelićeva 51, Čačak</p>
+                <p class="contact-info" style="margin-top: 3%;"></p>
+                <br />
+            </div>
+        </div>
+    </div>
+    <div id="emailUs">
+        <form onsubmit="sendEmail()">
+            <input type="text" id="name" placeholder="Ime i prezime"><br>
+            <input type="text" id="email" placeholder="E-mail"><br>
+            <textarea id="msg" placeholder="Poruka" rows="4"></textarea><br>
+            <button type="submit" id="sendMail">Pošalji</button>
+        </form>
+    </div>
+
+    <!--MAP-->
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Sindjeliceva%2051,%20Cacak&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://putlocker-is.org"></a><br>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 100%;
+                }
+            </style><a href="https://www.embedgooglemap.net">google embedded</a>
+            <style>
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 100%;
+                }
+            </style>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <i class="fa fa-instagram" aria-hidden="true" style="margin-right: 2%;"></i>
+        <i class="fa fa-facebook" aria-hidden="true" style="margin-right: 2%;"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+    </footer>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active-1", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active-1";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <script type="text/javascript">
+        function sendEmail() {
+            var link = "mailto:plan.plana93@gmail.com"
+                + "?cc=plan.plana93@gmail.com"
+                + "&subject=" + encodeURIComponent("Poruka sa sajta od: " + document.getElementById("name").value)
+                + "&body=" + encodeURIComponent(document.getElementById("msg").value)
+                ;
+
+            window.location.href = link;
+        }
+    </script>
+</body>
+
+</html>
