@@ -71,7 +71,7 @@
     background-color: lightgray;
 }
 
-.find-more-2:hover {
+.find-more-2:hover, .find-more-6:hover , .find-more-7:hover  {
     background-color: lightgray;
 }
 
@@ -400,7 +400,11 @@ img {
     margin-bottom: 10%;
     text-align: center;
 }
-
+.description-text-2{
+    margin-top: 50px;
+    margin-bottom: -5%;
+    font-size: 18;
+}
 #name{
     outline: 0;
     width: 50%;
@@ -597,6 +601,13 @@ img {
         margin-left: 3%;
     }
 
+    .description-div-3 {
+        display: inline-block;
+        width: auto;
+        margin-left: 3%;
+    }
+
+
     .description-div-2 {
         display: inline-block;
         width: 50%;
@@ -623,7 +634,14 @@ img {
         font-family: 'Courier New', monospace;
         font-size: 30px;
         margin-top: 15%;
-        margin-right: 75%;
+        margin-right: 66%;
+        white-space: normal;
+    }
+    .descriptions-head-6 {
+        font-family: 'Courier New', monospace;
+        font-size: 30px;
+        margin-top: 15%;
+        margin-right: 66%;
         white-space: normal;
     }
 
@@ -632,6 +650,10 @@ img {
         font-family: 'Courier New', monospace;
         white-space: normal;
         margin-top: 3%;
+        margin-left: 2%;
+        display: inline-block;
+        text-align: left;
+        font-size: 20;
     }
 
 
@@ -676,7 +698,29 @@ img {
         font-size: 30px;
         padding: 1%;
         margin-top: 5%;
+        margin-right: 5%;
+        border: 1px solid black;
+    }
+
+    .find-more-6 {
+        background-color: transparent;
+        color: black;
+        font-family: 'Courier New', monospace;
+        font-size: 30px;
+        padding: 1%;
+        margin-top: 10%;
         margin-right: 75%;
+        border: 1px solid black;
+    }
+
+    .find-more-7 {
+        background-color: transparent;
+        color: black;
+        font-family: 'Courier New', monospace;
+        font-size: 30px;
+        padding: 1%;
+        margin-top: 10%;
+        margin-right: 72%;
         border: 1px solid black;
     }
 
@@ -687,7 +731,8 @@ img {
         font-size: 30px;
         padding: 1%;
         border: 1px solid black;
-        margin-top: 4%;
+        position: relative;
+        top: 50;
     }
 
 
