@@ -24,14 +24,13 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
             <a class="navbar-item" href="#contact-section">KONTAKT</a>
             <div class="dropdown">
-                <button class="dropbtn" id="catalog" onclick="location.href='#furniture-section'">NAMEŠTAJ</button>
+                <button class="dropbtn" id="catalog" onclick="location.href='#furniture'">NAMEŠTAJ</button>
                 <div class="dropdown-content">
-                    <a class="content" href="#chairsFotelje">Stolice i fotelje</a>
-                    <a class="content" href="#namestaj">Nameštaj</a>
-                    <a class="content" href="#bfis">Barske fotelje i stolovi</a>
-                    <a class="content" href="#bfis">Ormari</a>
-                    <a class="content" href="#bfis">Kuhinje</a>
-                    <a class="content" href="#bfis">Interijeri</a>
+                    <a class="content" href="stolice-fotelje.html">Stolice i stolovi</a>
+                    <a class="content" href="ormari.html">Garderoberi</a>
+                    <a class="content" href="sobe.html">Spavaće sobe</a>
+                    <a class="content" href="kuhinje.html">Kuhinje</a>
+                    <a class="content" href="enterijeri.html">Enterijeri</a>
                 </div>
             </div>
             <a class="navbar-item" href="#galery-section">GALERIJA</a>
@@ -76,19 +75,19 @@
 
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 3</div>
-                    <img src="img/main.jpg" style="width:100%; height: 70%">
+                    <img src="img/main.jpg" class="phone-gallery">
                     <div class="text">Caption Text</div>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">2 / 3</div>
-                    <img src="img/main1.jpg" style="width:100%; height: 70%">
+                    <img src="img/main1.jpg" class="phone-gallery">
                     <div class="text">Caption Two</div>
                 </div>
 
                 <div class="mySlides fade">
                     <div class="numbertext">3 / 3</div>
-                    <img src="img/main3.jpg" style="width:100%; height: 70%">
+                    <img src="img/main3.jpg" class="phone-gallery">
                     <div class="text">Caption Three</div>
                 </div>
 
@@ -104,6 +103,44 @@
         </div>
     </div>
 
+    <div id="furniture"></div>
+
+    <!--NAMJESTAJ SEKCIJA TELEFON-->
+    <div id="furniture-section-phone">
+        <br />
+        <br />
+        <br />
+        <p class="contact-title">NAMEŠTAJ</p>
+        <hr class="contact-horizontal-1">
+        <hr class="contact-horizontal-2">
+        <div class="img-container" id="chairsFotelje">
+            <img src="img/chairs1.jpg" class="image-furniture">
+            <p class="centered">STOLICE I STOLOVI</p>
+            <button class="phone-button-1 centered" id="myBtn" onclick="location.href='stolice-fotelje.html'">MODERAN DIZAJN</button><!--1 PREZENTACIJA-->
+            <button class="phone-button-2 centered" id="myBtn" onclick="location.href='namještaj.html'">STILSKI NAMJESTAJ</button><!--1 PREZENTACIJA-->
+        </div>
+        <div class="img-container" id="bfis">
+            <img src="img/ormar.jpg" class="image-furniture-2">
+            <p class="centered">GARDEROBERI</p>
+            <button class="phone-button centered" id="myBtn" onclick="location.href='ormari.html'">KATALOG</button>
+        </div>
+        <div class="img-container" id="sobe">
+            <img src="img/bedroom.jpg" class="image-furniture">
+            <p class="centered">SPAVAĆE SOBE</p>
+            <button class="phone-button centered" id="myBtn" onclick="location.href='sobe.html'">KATALOG</button>
+        </div>
+        <div class="img-container" id="kuhinje">
+            <img src="img/kuhinje.webp" class="image-furniture-2">
+            <p class="centered">KUHINJE</p>
+            <button class="phone-button centered" id="myBtn" onclick="location.href='kuhinje.html'">KATALOG</button>
+        </div>
+        <div class="img-container" id="enterijeri">
+            <img src="img/enterier2.jpg" class="image-furniture">
+            <p class="centered">ENTERIJERI</p>
+            <button class="phone-button centered" id="myBtn" onclick="location.href='enterijeri.html'">KATALOG</button>
+        </div>
+    </div>
+
     <!--NAMJESTAJ SEKCIJA-->
     <div id="furniture-section">
         <br />
@@ -116,43 +153,43 @@
             <img src="img/chairs1.jpg" class="image-furniture">
             <div class="description-div">
                 <p class="descriptions-head">STOLICE I STOLOVI</p>
-                <p class="description-text" style="font-size: 130%; margin-right: 35%; margin-top: 10%;">Moderan dizajn</p>
+                <p class="description-text" style="font-size: 130%; margin-right: 30%; margin-top: 10%;">Moderan dizajn</p>
                 <button class="find-more-1" id="myBtn" onclick="location.href='stolice-fotelje.html'">KATALOG</button><!--1 PREZENTACIJA-->
-                <p class="description-text" style="font-size: 130%; margin-right: 28%; margin-top: 10%;">Stilski namestaj</p>
-                <button class="find-more-1" id="myBtn" onclick="location.href='stolice-fotelje.html'">KATALOG</button><!--KOSTKA-->
+                <p class="description-text" style="font-size: 130%; margin-right: 26%; margin-top: 10%;">Stilski namestaj</p>
+                <button class="find-more-1" id="myBtn" onclick="location.href='namestaj.html'">KATALOG</button><!--KOSTKA-->
             </div>
         </div>
-        <div class="chairs2">
+        <div class="chairs2" id="bfis">
             <div class="description-div-2">
                 <p class="descriptions-head-2">GARDEROBERI</p>
                 <p class="description-text-2">Izrada i projektovanje garderobera za spavaće sobe i predsoblja. <br> Projektovani i oblikovani po vašim željama.<br>
                      Stručni savjeti za komercijalna i dizajnerska rješenja.</p>
-                <button class="find-more-2">KATALOG</button>
+                <button class="find-more-2" onclick="location.href='ormari.html'">KATALOG</button>
             </div>
             <img src="img/ormar.jpg" class="image-furniture-2">
         </div>
-        <div class="chairs1">
+        <div class="chairs1" id="sobe">
             <img src="img/bedroom.jpg" class="image-furniture">
             <div class="description-div-3">
                 <p class="descriptions-head-4">SPAVAĆE SOBE</p>
                 <p class="description-text">Veliki izbor funkcionalnih i komercijalnih rješenja za spavaće sobe, hotelske sobe i apartmane...</p>
-                <button class="find-more-6">KATALOG</button>
+                <button class="find-more-6" onclick="location.href='sobe.html'">KATALOG</button>
             </div>
         </div>
-        <div class="chairs2">
+        <div class="chairs2" id="kuhinje">
             <div class="description-div-2">
                 <p class="descriptions-head-2">KUHINJE</p>
                 <p class="description-text-2">Funkcionalna i komercijalna rješenja po željama kupca uz pomoć stručnih saveta dizajnera.</p>
-                <button class="find-more-2">KATALOG</button>
+                <button class="find-more-2" onclick="location.href='kuhinje.html'">KATALOG</button>
             </div>
             <img src="img/kuhinje.webp" class="image-furniture-2">
         </div>
-        <div class="chairs1">
+        <div class="chairs1" id="enterijeri">
             <img src="img/enterier2.jpg" class="image-furniture">
             <div class="description-div">
                 <p class="descriptions-head-6">ENTERIJERI</p>
                 <p class="description-text">Funkcionalna i komercijalna rješenja po željama kupca uz pomoć stručnih saveta dizajnera.</p>
-                <button class="find-more-7">KATALOG</button>
+                <button class="find-more-7" onclick="location.href='enterijeri.html'">KATALOG</button>
             </div>
         </div>
     </div>
