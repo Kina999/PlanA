@@ -555,7 +555,7 @@ img {
     .image-furniture {
         margin-top: 5%;
         width: 100%;
-        height: 40%;
+        height: 50%;
         -webkit-filter: brightness(20%);
         filter:brightness(20%);
     }
