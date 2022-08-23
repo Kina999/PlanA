@@ -34,14 +34,15 @@
 }
 
 .main-text {
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New', monospace;
+    font-weight: normal;
     color: white;
     font-size: 50px;
     padding-top: 18%;
 }
 
 .dropdown .dropbtn {
-    font-size: 15px;
+    font-size: 20px;
     border: none;
     outline: none;
     padding: 14px 16px;
@@ -53,11 +54,11 @@
     margin: 0;
     padding-left: 15%;
     position: relative;
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
 }
 
 .contact-info {
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
     overflow: hidden;
 }
 
@@ -82,9 +83,9 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 2%;
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
     position: relative;
 }
 
@@ -153,7 +154,7 @@
 }
 
 .contact-title {
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
     font-size: 55px;
 }
 
@@ -199,7 +200,7 @@
 }
 
 .about-paragraph {
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
     margin: 2%;
 }
 
@@ -372,7 +373,7 @@ img {
     /* Could be more or less, depending on screen size */
 }
 .content{
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
 }
 /* The Close Button */
 .close {
@@ -436,7 +437,7 @@ img {
     margin-bottom: 10%;
 }
 #contactHead{
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
     font-size: 220%;
     margin-top: 5%;
 }
@@ -451,7 +452,7 @@ img {
     margin-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Lucida Handwriting', monospace;
+    font-family: 'Courier New';
     font-size: 20;
     background-color: white;
     border: 1px solid white;
@@ -495,7 +496,7 @@ img {
     .phone-button{
         background-color: transparent;
         color: white;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         padding: 1%;
         margin-top: 15%;
@@ -508,7 +509,7 @@ img {
     .phone-button-2{
         background-color: transparent;
         color: white;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         padding: 1%;
         margin-top: 30%;
@@ -518,7 +519,7 @@ img {
     .phone-button-1{
         background-color: transparent;
         color: white;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         padding: 1%;
         margin-top: 15%;
@@ -528,7 +529,7 @@ img {
     .centered {
         position: absolute;
         top: 50%;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         left: 50%;
         transform: translate(-50%, -50%);
       }
@@ -582,7 +583,7 @@ img {
     .descriptions-head-2,
     .descriptions-head-5,
     .descriptions-head-6 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         margin-top: 5%;
     }
@@ -590,7 +591,7 @@ img {
     .description-text,
     .description-text-2,
     .description-text-5 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         white-space: normal;
         margin-top: 5%;
     }
@@ -607,7 +608,7 @@ img {
     .find-more {
         background-color: transparent;
         color: white;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         padding: 1%;
         margin-top: 1%;
@@ -619,7 +620,7 @@ img {
     .find-more-5 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         padding: 1%;
         border: 1px solid black;
@@ -629,7 +630,7 @@ img {
     .find-more-6 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         padding: 1%;
         margin-top: 3%;
@@ -640,7 +641,7 @@ img {
     .find-more-7 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 30px;
         padding: 1%;
         margin-top:3%;
@@ -704,7 +705,7 @@ img {
     }
 
     .descriptions-head {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         margin-top: 15%;
         margin-right: 44%;
@@ -712,7 +713,7 @@ img {
     }
 
     .descriptions-head-3 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         margin-top: 15%;
         margin-right: 19%;
@@ -720,14 +721,14 @@ img {
     }
 
     .descriptions-head-4 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         margin-top: 15%;
         margin-right: 65.5%;
         white-space: normal;
     }
     .descriptions-head-6 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         margin-top: 15%;
         margin-right: 68%;
@@ -736,7 +737,7 @@ img {
 
 
     .description-text {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         white-space: normal;
         margin-top: 3%;
         margin-left: 2%;
@@ -747,25 +748,25 @@ img {
 
 
     .descriptions-head-2 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         white-space: normal;
     }
 
     .descriptions-head-5 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         white-space: normal;
     }
 
     .description-text-2 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         white-space: normal;
         margin-top: 3%;
     }
 
     .description-text-5 {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         white-space: normal;
         margin-top: 3%;
     }
@@ -773,7 +774,7 @@ img {
     .find-more {
         background-color: transparent;
         color: white;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         padding: 1%;
         margin-top: 1%;
@@ -783,7 +784,7 @@ img {
     .find-more-1 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         padding: 1%;
         margin-top: 5%;
@@ -794,7 +795,7 @@ img {
     .find-more-6 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         padding: 1%;
         margin-top: 3%;
@@ -805,7 +806,7 @@ img {
     .find-more-7 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         padding: 1%;
         margin-top:3%;
@@ -816,7 +817,7 @@ img {
     .find-more-2 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25px;
         padding: 1%;
         border: 1px solid black;
@@ -828,7 +829,7 @@ img {
     .find-more-5 {
         background-color: transparent;
         color: black;
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         font-size: 25spx;
         padding: 1%;
         border: 1px solid black;
@@ -888,7 +889,7 @@ img {
     }
 
     .main-text {
-        font-family: 'Lucida Handwriting', monospace;
+        font-family: 'Courier New';
         color: white;
         font-size: 50px;
         padding-top: 70%;
