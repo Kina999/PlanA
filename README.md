@@ -1,3 +1,3 @@
 PlanA
 
-Web sajt firme za uredjenje enterijera.
+Responsivan web sajt firme za uredjenje enterijera.
