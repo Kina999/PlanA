@@ -560,8 +560,8 @@ img {
         margin-top: 5%;
         width: 100%;
         height: 50%;
-        -webkit-filter: brightness(20%);
-        filter:brightness(20%);
+        -webkit-filter: brightness(50%);
+        filter:brightness(50%);
     }
 
     .image-furniture:hover {
@@ -573,8 +573,8 @@ img {
         margin-top: 5%;
         width: 100%;
         height: 40%; 
-        -webkit-filter: brightness(20%);
-        filter:brightness(20%);
+        -webkit-filter: brightness(50%);
+        filter:brightness(50%);
     }
 
     .descriptions-head,
@@ -724,7 +724,7 @@ img {
         font-family: 'Courier New';
         font-size: 25px;
         margin-top: 15%;
-        margin-right: 65.5%;
+        margin-right: 70%;
         white-space: normal;
     }
     .descriptions-head-6 {
