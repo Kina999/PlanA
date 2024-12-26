@@ -896,13 +896,17 @@ img {
     }
 
     .col {
-        width: 55%;
+        width: 95%;
         height: 20%;
         text-align: center;
         margin: 4%;
         padding: 1%;
         display: inline-block;
         border-radius: 20%;
+    }
+
+    #emailUs {
+        width: 95%;
     }
 
     .topnav.responsive a.icon {
